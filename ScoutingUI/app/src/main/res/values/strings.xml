@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MCMergeManager</string>
+    <string name="title_schedule">Schedule</string>
+    <string name="title_addComment">Add Comment</string>
+    <string name="title_scout">Scout Match</string>
+    <string name="title_takePhoto">Take Photo</string>
+    <string name="title_lookup">Lookup Team</string>
+    <string name="title_schedule_comment">Let them choose between one team\'s schedule or the whole schedule here, maybe with tabs like on the old app or something? One of the big things I want to avoid on this new UI is excessive popups that get in people\'s ways, so we need to find a way to work around that while still getting needed info</string>
+    <string name="title_addComment_comment">Section to add a comment about a team here, because of the new layout you can switch back and forth between the scouting tab, therefore letting you comment/take picture/anything whenever you want even when scouting.</string>
+    <string name="title_scout_comment">Lets the person scout the match, or continue scouting an already started match. Fragments are the big change here, the whole scouting app will now be in one or two activities instead of many, keeping the continuity of the app, so you can switch in and out of sacouting whenever you want</string>
+    <string name="title_takePhoto_comment">Takes a photo in a fragment, so cannot be brought into a new activity (will be a challenge!) Lets the person take photos whenever, even in the middle of scouting instead of having to leave</string>
+    <string name="title_lookup_comment">Bring the second tab in the old app with the team lookup over to this tab, fits the flow better and you don\'t want two navs.</string>
+</resources>
